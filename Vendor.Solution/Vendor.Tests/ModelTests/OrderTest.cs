@@ -7,17 +7,27 @@ namespace Tracker.Tests
 {
   [TestClass]
   public class OrderTests
+   // public void Dispose()
+    // {
+      
+    // }
   {
 
     [TestMethod]
-    public void OrderContructor_ItCreatesInstanceOfOrder_Order()
+    public void OrderContructor_CreatesInstanceOfOrder_Order()
     {
       Order newOrder = new Order("Bread", "Bread Special", 10, 12/18/20);
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
-    // public void Dispose()
-    // {
-      
-    // }
+
+    [TestMethod]
+    public void Order_CreateOrderWithProperties_Order()
+    {
+      Order newOrder = new Order("Bread", "Bread Special", 1, 12/18/20);
+      Assert.AreEqual("Bread", newOrder.Title);
+      Assert.AreEqual("Bread Special", newOrder.Description);
+      Assert.AreEqual(10, newOrder.Price);
+      Assert.AreEqual(12/18/20, newOrder.Date);
+    }
   }
 }
