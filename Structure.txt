@@ -1,0 +1,21 @@
+Vendor constructor
+// name
+// description
+// List of Order from Vendor
+
+Order constructor
+// title
+//description
+//price
+//date
+
+
+Welcoming Page
+- link to the vendors Page
+
+Vendor Page
+- Pierre form to create a new vendor
+- new vendor save to a static List
+- Routed Back home page
+
+Click vendors name and new page display all Vendor's Order
