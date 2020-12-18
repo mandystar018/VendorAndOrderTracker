@@ -23,7 +23,7 @@ namespace Tracker.Tests
     [TestMethod]
     public void Order_CreateOrderWithProperties_Order()
     {
-      Order newOrder = new Order("Bread", "Bread Special", 1, 12/18/20);
+      Order newOrder = new Order("Bread", "Bread Special", 10, 12/18/20);
       Assert.AreEqual("Bread", newOrder.Title);
       Assert.AreEqual("Bread Special", newOrder.Description);
       Assert.AreEqual(10, newOrder.Price);
