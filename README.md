@@ -12,7 +12,7 @@ _This is a detailed description of your application. Its purpose and usage.  Giv
 ### <span style="color:#c4f4ef">Open Locally</span>
 1. _Navigate to my GitHub mandystar018 to view the project files and commits.
 2. _Click on the green button labeled "Code"_ to copy repository URL.
-3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/mandystar018/Template".
+3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/mandystar018/Vendor".
 4. _To use this application you will need to install .NET. Please, see instructions below._
 
 ## <span style="color:#0ec2b8">.NET Installation</span> 
@@ -45,7 +45,7 @@ _This means .NET and C# are installed and our computer recognizes the dotnet com
 ### <span style="color:#c4f4ef">Run Application</span>
 <p>You can launch our program with the following steps:</p>
 
-1. _Navigate to the "/Template/" folder in the command line._
+1. _Navigate to the "/Vendor/" folder in the command line._
 
 2. _Run the following command: $ dotnet build_
 
