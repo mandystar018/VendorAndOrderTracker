@@ -12,7 +12,7 @@ namespace Tracker.Tests
     [TestMethod]
     public void OrderContructor_ItCreatesInstanceOfOrder_Order()
     {
-      Order newOrder = new Order();
+      Order newOrder = new Order("Bread", "Bread Special", 10, 12/18/20);
       Assert.AreEqual(typeof(Order), newOrder.GetType());
     }
     // public void Dispose()
